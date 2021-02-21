@@ -2,11 +2,9 @@
   padding: 2rem;
   background: #fff;
 }
-
 h1 {
   text-align: center;
 }
-
 .cards__container {
   display: flex;
   align-items: center;
@@ -45,10 +43,6 @@ h1 {
   width: 100%;
   padding-top: 67%;
   overflow: hidden;
-}
-.fade-img {
-  animation-name: fade-img;
-  animation-duration: 3s;
 }
 .cards__item__pic-wrap::after {
   content: attr(data-category);
