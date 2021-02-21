@@ -1,0 +1,133 @@
+#contact_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.contact-container {
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  background-color: black;
+}
+.contact-container .contact-info {
+  background-color: #5904c2;
+  margin-left: 2em;
+  border-radius: 15px;
+  padding: 40px;
+  color: white;
+  display: flex;
+  flex: 0 1 40%;
+  flex-direction: column;
+}
+.contact-info > h4 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: 2.5em;
+  margin-bottom: 1rem;
+}
+.contact-info > p {
+  font-weight: 300;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 2rem;
+}
+.icon-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.icon-text .fa {
+  flex: 0 0 20px;
+  font-size: 1.5rem;
+  margin-right: 1.2rem;
+}
+.icon-text span {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+form {
+  width: 100%;
+  padding: 40px;
+}
+.col {
+  display: flex;
+  flex: 0 0 100%;
+}
+.form-group {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex: 0 1 100%;
+  padding-right: 40px;
+}
+label {
+  font-size: 0.9;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.input_cont,
+textarea {
+  border: none;
+  color: white;
+  background: transparent;
+  border-bottom: 2px solid #c4c0c0;
+  padding: 7px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.input_cont:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #5904c2;
+}
+#radio-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1.2rem;
+  margin-top: 13px;
+}
+.radio-button {
+  margin-right: 3em;
+}
+.solo {
+  padding: 0;
+}
+.right {
+  align-items: flex-end !important;
+}
+.primary {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-container {
+    overflow: inherit;
+    display: inherit;
+    height: inherit;
+  }
+  .contact-info > h4 {
+    margin-top: 1rem;
+  }
+  .contact-container .contact-info {
+    padding: 32px;
+    height: 400px;
+    /* margin-left: 4rem; */
+  }
+  form {
+    margin-top: 25rem;
+    margin-left: -20rem;
+  }
+  .col {
+    display: inherit;
+  }
+}
