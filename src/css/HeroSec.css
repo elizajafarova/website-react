@@ -6,7 +6,7 @@ img {
   z-index: -1;
 }
 .hero-container {
-  height: 100vh;
+  height: 94vh;
   width: 100%;
   display: flex;
   flex-direction: column;
