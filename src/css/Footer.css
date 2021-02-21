@@ -1,6 +1,5 @@
 .footer-container {
   background-color: #000;
-  height: 10vw;
   cursor: pointer;
 }
 .footer-container > h1 {
@@ -36,8 +35,5 @@
   .footer-container > h1 {
     width: inherit;
     margin-left: 2.5em;
-  }
-  .footer-container {
-    height: inherit;
   }
 }
